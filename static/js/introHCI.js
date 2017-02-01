@@ -19,10 +19,9 @@ function initializePage() {
 }
 
 function projectClick(e) {
-	console.log("Project Clicked");
 	// prevent the page from reloading
 	e.preventDefault();
-
+	console.log("Project Clicked");
 	// in an event hanlder, $(this) refers to 
 	// the object that triggered the event
 	$(this).css("background-color", "#7fff00");
