@@ -19,6 +19,7 @@ function initializePage() {
 }
 
 function projectClick(e) {
+	console.log("Project Clicked");
 	// prevent the page from reloading
 	e.preventDefault();
 
